@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #02010e;
+  font-family: "Nunito", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1024px) {
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    backdrop-filter: blur(2px);
+    background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), #021c2b, transparent 300px);
+  }
+}
