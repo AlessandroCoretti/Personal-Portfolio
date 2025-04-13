@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="flex flex-col gap-4 text-md text-slate-400 font-normal leading-6">
+    <section id="about" className="flex flex-col gap-4 text-lg lg:text-base text-slate-400 font-normal leading-6">
       <p>
         Su di me posso dire di essere uno sviluppatore <strong className="text-slate-200">Full-stack</strong> appassionato di interfacce accessibili, pulite e
         ad alte prestazioni. Mi piace lavorare nel punto d'incontro tra design e sviluppo, dove l’estetica incontra la funzionalità per creare esperienze

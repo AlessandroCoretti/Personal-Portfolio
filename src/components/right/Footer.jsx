@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <p className="text-slate-600 text-sm w-[100%] mb-10 lg:mb-0  lg:w-[75%]">
+    <p className="text-slate-600 text-xs lg:text-sm w-[100%] mb-10 lg:mb-0  lg:w-[75%]">
       Prototipato con{" "}
       <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
         <strong className="text-slate-400 hover:text-emerald-300">Figma</strong>

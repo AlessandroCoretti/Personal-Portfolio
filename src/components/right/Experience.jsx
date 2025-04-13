@@ -10,7 +10,7 @@ function Experience() {
               <header className="uppercase !text-slate-300 text-xs font-bold mt-1">2024 - oggi</header>
             </div>
             <div className="col-span-8 lg:col-span-6">
-              <div className="flex items-center text-slate-200 font-bold text-md gap-2 hover:text-emerald-300 duration-200 ese-in">
+              <div className="flex items-center text-slate-200 font-bold text-lg gap-2 hover:text-emerald-300 duration-200 ese-in">
                 <h3>Esperienza con Epicode</h3>
                 <span className="hidden lg:block"> - </span>
                 <div>EPICODE</div>
@@ -34,7 +34,7 @@ function Experience() {
                   </svg>
                 </a>
               </div>
-              <section className="text-slate-400 text-sm font-medium mt-2">
+              <section className="text-slate-400 text-md lg:text-sm font-medium mt-2">
                 <p>
                   Un'esperienza formativa completa, vissuta passo dopo passo con lo studio e l'apprendimento continuo. In questo percorso ho acquisito
                   competenze fondamentali nello sviluppo di componenti sia front-end che back-end. Il lavoro di squadra, affrontato attraverso progetti

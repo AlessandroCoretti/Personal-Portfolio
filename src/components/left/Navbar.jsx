@@ -9,18 +9,18 @@ function Navbar() {
 
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
+        const mostVisible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (mostVisible && mostVisible.target.id !== activeSection) {
+          setActiveSection(mostVisible.target.id);
+        }
       },
-      { threshold: 0.5, rootMargin: " -30% 0px -20% 0px" }
+      { threshold: Array.from({ length: 101 }, (_, i) => i / 100) }
     );
 
     sections.forEach((section) => observer.observe(section));
     return () => observer.disconnect();
-  }, []);
+  }, [activeSection]);
 
   return (
     <nav className="nav hidden lg:block" aria-label="In-page jump links">
