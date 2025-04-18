@@ -10,8 +10,12 @@ function Footer() {
         <strong className="text-slate-400 hover:text-emerald-300">Visual Studio Code</strong>
       </a>
       . Costruito con{" "}
-      <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
-        <strong className="text-slate-400 hover:text-emerald-300">Next.js</strong>
+      <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+        <strong className="text-slate-400 hover:text-emerald-300">React</strong>
+      </a>{" "}
+      +{" "}
+      <a href="https://vite.dev/" target="_blank" rel="noopener noreferrer">
+        <strong className="text-slate-400 hover:text-emerald-300">Vite</strong>
       </a>{" "}
       e{" "}
       <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">

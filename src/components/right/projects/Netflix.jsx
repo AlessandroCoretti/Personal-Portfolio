@@ -3,7 +3,12 @@ import netflix from "../../../assets/Logo/image/Netflix-img.png";
 function Netflix() {
   return (
     <section>
-      <a href="" className="flex flex-col gap-4 text-base text-slate-400 font-normal leading-6">
+      <a
+        href="https://netflix-app-clone-puce.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex flex-col gap-4 text-base text-slate-400 font-normal leading-6"
+      >
         <ul>
           <li className="mb-12">
             <div className="grid grid-cols-8 gap-2 !items-top hover:bg-slate-800/50 hover:p-2 hover:rounded hover:scale-[1.05] transition-all duration-300 easein-out ">

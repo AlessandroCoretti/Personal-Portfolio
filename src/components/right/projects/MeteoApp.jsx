@@ -1,23 +1,28 @@
-import freeitinerary from "../../../assets/Logo/image/Freeitinerary-img.png";
+import meteoapp from "../../../assets/Logo/image/Meteo-App.png";
 
-function Freeitinerary() {
+function MeteoApp() {
   return (
     <section>
-      <a href="" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 text-base text-slate-400 font-normal leading-6">
+      <a
+        href="https://meteo-app-clone.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex flex-col gap-4 text-base text-slate-400 font-normal leading-6"
+      >
         <ul>
           <li className="mb-12">
             <div className="grid grid-cols-8 gap-2 !items-top hover:bg-slate-800/50 hover:p-2 hover:rounded hover:scale-[1.05] transition-all duration-300 easein-out ">
               <div className="col-span-8 lg:col-span-2 order-2 lg:order-1">
                 <figure className=" lg:w-full lg:h-[80px] ">
-                  <img src={freeitinerary} alt="" className="h-full w-full" />
-                  <figcaption className="sr-only">Freeitinerary cover image</figcaption>
+                  <img src={meteoapp} alt="" className="h-full w-full" />
+                  <figcaption className="sr-only">MeteoApp cover image</figcaption>
                 </figure>
               </div>
               <div className="col-span-8 lg:col-span-6 order-1 lg:order-2">
                 <div className="flex items-center text-slate-200 font-bold text-lg gap-2 hover:text-emerald-300 duration-200 ese-in">
-                  <h3>Sito per itinerari</h3>
+                  <h3>Sito mobile per meteo</h3>
                   <span className="hidden lg:block"> - </span>
-                  <div>Freeitinerary</div>
+                  <div>MeteoApp</div>
                   <a href="https://epicode.com/it/" target="_blank" rel="noopener noreferrer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -39,11 +44,7 @@ function Freeitinerary() {
                   </a>
                 </div>
                 <section className="text-slate-400 text-md lg:text-sm font-medium mt-2">
-                  <p>
-                    Questo è il progetto finale presentato per il mio diploma, si tratta di un sito web utile per la crezione di itinerari di viaggio, idea
-                    semplice ma funzionale. Sono state utilizzate tutte le tecnologie studiate, oltre alle diverse API per voli ed hotel. Ancora in fase di
-                    completamento con aggiunta di nuove funzionalità.
-                  </p>
+                  <p>Una semplice app che visualizza il meteo in tempo reale delle varie città in giro per il mondo. Si sfrutta l'API fornita da Geoapi</p>
                 </section>
               </div>
             </div>
@@ -54,4 +55,4 @@ function Freeitinerary() {
   );
 }
 
-export default Freeitinerary;
+export default MeteoApp;

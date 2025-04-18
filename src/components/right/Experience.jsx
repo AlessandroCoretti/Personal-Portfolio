@@ -7,7 +7,7 @@ function Experience() {
         <li className="mb-12">
           <div className="grid grid-cols-8  !items-top hover:bg-slate-800/50 hover:p-2 hover:rounded hover:scale-[1.05] transition-all duration-300 easein-out ">
             <div className="col-span-8 lg:col-span-2 mb-3 lg:mb-0">
-              <header className="uppercase !text-slate-300 text-xs font-bold mt-1">2024 - oggi</header>
+              <header className="uppercase !text-slate-300 text-xs font-bold mt-1">2024 - 2025</header>
             </div>
             <div className="col-span-8 lg:col-span-6">
               <div className="flex items-center text-slate-200 font-bold text-lg gap-2 hover:text-emerald-300 duration-200 ese-in">
@@ -36,10 +36,10 @@ function Experience() {
               </div>
               <section className="text-slate-400 text-md lg:text-sm font-medium mt-2">
                 <p>
-                  Un'esperienza formativa completa, vissuta passo dopo passo con lo studio e l'apprendimento continuo. In questo percorso ho acquisito
-                  competenze fondamentali nello sviluppo di componenti sia front-end che back-end. Il lavoro di squadra, affrontato attraverso progetti
-                  concreti, mi ha permesso di sviluppare soft skill come la comunicazione, la collaborazione e la gestione del tempo, fondamentali per lavorare
-                  in team in modo efficace.
+                  Un'esperienza formativa completa di 6 mesi, vissuta passo dopo passo con lo studio e l'apprendimento continuo. In questo percorso ho acquisito
+                  competenze fondamentali nello sviluppo di componenti sia front-end che back-end, il tutto completamente on-demand. Il lavoro di squadra,
+                  affrontato attraverso progetti concreti, mi ha permesso di sviluppare soft skill come la comunicazione, la collaborazione e la gestione del
+                  tempo, fondamentali per lavorare in team in modo efficace.
                 </p>
               </section>
             </div>
