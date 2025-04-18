@@ -1,3 +1,4 @@
+import EpiBook from "./projects/EpiBook";
 import Freeitinerary from "./projects/Freeitinerary";
 import MeteoApp from "./projects/MeteoApp";
 import Netflix from "./projects/Netflix";
@@ -9,6 +10,7 @@ function Projects() {
         <Freeitinerary />
         <Netflix />
         <MeteoApp />
+        <EpiBook />
       </div>
     </section>
   );
