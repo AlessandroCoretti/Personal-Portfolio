@@ -47,7 +47,13 @@ function Experience() {
         </li>
       </ol>
       <footer>
-        <a href="/CurriculumVitae/Cv.pdf" target="_blank" rel="noopener noreferrer" aria-label="visualizza cv di Alessandro Coretti" className="block w-fit">
+        <a
+          href="/CurriculumVitae/CurriculumVitaeAlessandroCoretti.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="visualizza cv di Alessandro Coretti"
+          className="block w-fit"
+        >
           <div className="uppercase w-fit my-12 flex text-slate-200 text-sm items-top gap-1 hover:text-emerald-300  hover:scale-[1.05] transition-all duration-200 ease-in-out">
             <p>Vedi il resoconto completo</p>
             <svg
