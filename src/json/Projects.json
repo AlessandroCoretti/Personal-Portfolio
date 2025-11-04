@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Clone Netflix - Netflix",
+    "description": "Un clone della homepage di Netflix realizzato in React, con una pagina di gestione del profilo utente e un’interfaccia ispirata all’originale. I dati dei film e le copertine vengono caricati dinamicamente tramite API esterne.",
+    "image": "/image/Netflix-img.png",
+    "link": "https://netflix-app-clone-puce.vercel.app/"
+  },
+
+  {
+    "id": 2,
+    "title": "Sito mobile per meteo - Meteo App",
+    "description": "Una semplice app che visualizza il meteo in tempo reale delle varie città in giro per il mondo. Si sfrutta l'API fornita da Geoapi.",
+    "image": "/image/Meteo-App.png",
+    "link": "https://meteo-app-clone.vercel.app/"
+  },
+
+  {
+    "id": 3,
+    "title": "Epi-Book - EPIBOOK",
+    "description": "Piccola libreria che ricava i propri libri da un JSON interno, è uno dei primi approcci avuti con chiamate interne di una fake API inquanto ancora non presenti chiamate HTTP esterne.",
+    "image": "/image/Epibook.png",
+    "link": "https://epi-book-library.vercel.app/"
+  }
+]

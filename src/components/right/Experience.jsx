@@ -1,18 +1,18 @@
 import Tecnologies from "./Tecnologies";
-import data from "../../Experiences.json";
+import experiences from "../../json/Experiences.json";
 
 function Experience() {
   return (
     <section id="experience">
       <ol>
-        {data.map((exp, index) => (
+        {experiences.map((exp, index) => (
           <li key={index} className="mb-12">
             <div className="grid grid-cols-8  !items-top hover:bg-slate-800/50 hover:p-2 hover:rounded hover:scale-[1.05] transition-all duration-300 easein-out ">
               <div className="col-span-8 lg:col-span-2 mb-3 lg:mb-0">
                 <header className="uppercase !text-slate-300 text-xs font-bold mt-1">{exp.period}</header>
               </div>
               <div className="col-span-8 lg:col-span-6">
-                <div className="flex items-center text-slate-200 font-bold text-lg gap-2 hover:text-emerald-300 duration-200 ese-in">
+                <div className="flex items-center text-slate-200 font-bold text-lg gap-2 cursor-pointer hover:text-emerald-300 duration-200 ese-in">
                   <h3>{exp.role}</h3>
                   <div>{exp.company}</div>
                   <a href={exp.link} target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,7 @@ function Experience() {
       </ol>
       <footer>
         <a
-          href="/CurriculumVitae/CurriculumVitaeAlessandroCoretti.pdf"
+          href="/CurriculumVitae/CV-ALESSANDRO-CORETTI.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="visualizza cv di Alessandro Coretti"

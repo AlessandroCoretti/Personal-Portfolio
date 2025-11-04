@@ -2,7 +2,7 @@ function About() {
   return (
     <section id="about" className="flex flex-col gap-4 text-lg lg:text-base text-slate-400 font-normal leading-6">
       <p>
-        Ciao! Sono uno sviluppatore <strong className="text-slate-200">Full-stack</strong> appassionato di interfacce accessibili, pulite e ad alte prestazioni.
+        Ciao! Sono uno sviluppatore <strong className="text-slate-200">Front-end</strong> appassionato di interfacce accessibili, pulite e ad alte prestazioni.
         Mi piace lavorare nel punto d'incontro tra design e sviluppo, dove l’estetica incontra la funzionalità per creare esperienze intuitive e ben progettate.
       </p>
       <p>
@@ -20,7 +20,7 @@ function About() {
       </p>
       <p>
         Quando non sono al PC, mi alleno, passo tempo all'aperto con il mio cane Rocky o con la mia compagna. Altrimenti puoi star certo che mi trovi a spasso
-        con la mia gilda tra le Terre proibite cercando di catturare{" "}
+        con la mia gilda tra le Terre proibite cercando di catturare un{" "}
         <strong className="hover:cursor-[url('public/cursor/rathalos2.svg')_20_20,_pointer] text-slate-200 transition-all duration-700 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-l hover:from-red-500 hover:to-orange-400">
           Rathalos
         </strong>
