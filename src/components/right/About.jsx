@@ -21,7 +21,7 @@ function About() {
       <p>
         Quando non sono al PC, mi alleno, passo tempo all'aperto con il mio cane Rocky o con la mia compagna. Altrimenti puoi star certo che mi trovi a spasso
         con la mia gilda tra le Terre proibite cercando di catturare un{" "}
-        <strong className="hover:cursor-[url('public/cursor/rathalos2.svg')_20_20,_pointer] text-slate-200 transition-all duration-700 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-l hover:from-red-500 hover:to-orange-400">
+        <strong className="hover:cursor-[url('/cursor/rathalos2.svg')_20_20,_pointer] text-slate-200 transition-all duration-700 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-l hover:from-red-500 hover:to-orange-400">
           Rathalos
         </strong>
         .

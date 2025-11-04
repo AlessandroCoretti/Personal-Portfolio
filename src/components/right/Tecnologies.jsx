@@ -1,11 +1,11 @@
-import cssLogo from "../../assets/Logo/css-logo.svg";
-import HtmlLogo from "../../assets/Logo/HTML-logo.svg";
-import JavaLogo from "../../assets/Logo/java-logo.svg";
-import JsLogo from "../../assets/Logo/javascript-logo.svg";
-import PostgreLogo from "../../assets/Logo/PostgreSQL-logo.svg";
-import ReactLogo from "../../assets/Logo/react.svg";
-import SpringbootLogo from "../../assets/Logo/springboot-logo.svg";
-import NodeJsLogo from "../../assets/Logo/Nodejs-logo.svg";
+import cssLogo from "../../../public/assets/Logo/css-logo.svg";
+import HtmlLogo from "../../../public/assets/Logo/HTML-logo.svg";
+import JavaLogo from "../../../public/assets/Logo/java-logo.svg";
+import JsLogo from "../../../public/assets/Logo/javascript-logo.svg";
+import PostgreLogo from "../../../public/assets/Logo/PostgreSQL-logo.svg";
+import ReactLogo from "../../../public/assets/Logo/react.svg";
+import SpringbootLogo from "../../../public/assets/Logo/springboot-logo.svg";
+import NodeJsLogo from "../../../public/assets/Logo/Nodejs-logo.svg";
 import "../../css/Tecnologies.css";
 
 function Tecnologies() {
