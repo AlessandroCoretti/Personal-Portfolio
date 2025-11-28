@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Clone Netflix 2.0 - Netflix",
-    "description": "Progetto migliorato del precedente che avevo creato. Multipagina, possibilità di avere una propria lista di preferiti, descrizioni e pagine che si aggiornano dinamicamente con l'API di TMDb. Al momento è in fase di miglioramento, ed è visualizzabile solo per desktop. ",
+    "description": "Progetto migliorato del precedente che avevo creato. Multipagina, possibilità di avere una propria lista di preferiti, descrizioni e pagine che si aggiornano dinamicamente con l'API di TMDb. Al momento è in fase di miglioramento, sia per desktop che per mobile. ",
     "image": "/image/Netflix-clone-2.0.png",
     "link": "https://netflix-clone-inky-sigma.vercel.app/"
   },
