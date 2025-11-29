@@ -1,0 +1,46 @@
+{
+  "hero_title": "Alessandro Coretti",
+  "hero_subtitle": "Front-end Developer",
+  "hero_description": "I create beautiful things for the web, useful to all of you",
+
+  "nav_about": "About",
+  "nav_experiences": "Experiences",
+  "nav_projects": "Projects",
+
+  "about_p1": "Hi! I'm a Front-end developer passionate about accessible, clean, and high-performance interfaces. I love working at the intersection between design and development, where aesthetics meet functionality to create intuitive and well-crafted experiences.",
+  "about_p2": "After completing a training program with ",
+  "about_p2_b": ", I specialized in building modern applications using React for the frontend and Spring Boot for the backend. I approach every project with attention to detail, clean code practices, and a focus on accessibility and performance.",
+  "about_p3": "I love solving real problems through code: from creating custom UI components to managing state logic and connecting with external APIs. I believe in writing clean, scalable, and user-oriented code.",
+  "about_p4": "When I'm not at the PC, I work out, spend time outdoors with my dog Rocky or with my girlfriend. Otherwise, you can be sure you'll find me roaming the Forbidden Lands with my guild in search of a ",
+
+  "exp_graphicdesigner_title": "Graphic Designer",
+  "exp_graphicdesigner_company": "Andrea Leonardi s.r.l.",
+  "exp_graphicdesigner_period": "Jan 2022 - June 2022",
+  "exp_graphicdesigner_description": "A 6-month full-remote experience during which I worked on creating graphics with Canva for videos, presentations, and corporate meetings, collaborating daily with the copywriting team to ensure visual and communication consistency.",
+
+  "exp_epicode_title": "Experience with Epicode",
+  "exp_epicode_company": "Epicode",
+  "exp_epicode_period": "2024 - 2025",
+  "exp_epicode_description": "A complete 6-month training experience, lived step by step with study and continuous learning. In this journey, I gained fundamental skills in developing both front-end and back-end components, all completely on-demand. Teamwork, approached through concrete projects, allowed me to develop soft skills such as communication, collaboration, and time management, which are essential for working effectively in teams.",
+
+  "exp_publicis_title": "Content Editor",
+  "exp_publicis_company": "Publicis Sapient",
+  "exp_publicis_period": "May 2025 - Oct 2025",
+  "exp_publicis_description": "During my experience at Publicis Sapient, I collaborated remotely on the management and optimization of Maserati's global websites, using Adobe CMS (AEM) to ensure consistency and content quality on an international scale. Additionally, I actively participated in the release of McPura and McPura Cielo's summer collection, supporting digital content publishing and updating activities.",
+
+  "resume_link": "See full report",
+
+  "project_netflixpro_title": "Netflix Clone 2.0 - Netflix",
+  "project_netflixpro_description": "Improved design of the previous one I created. Multi-page, ability to have your own list of favorites, descriptions, and pages that dynamically update with the TMDb API. It is currently being improved, both for desktop and mobile.",
+
+  "project_netflixbase_title": "Netflix Clone - Netflix",
+  "project_netflixbase_description": "A clone of the Netflix homepage built in React, with a user profile management page and an interface inspired by the original. Movie data and covers are dynamically loaded via external APIs.",
+
+  "project_meteoapp_title": "Weather mobile site - Meteo App",
+  "project_meteoapp_description": "A simple app that displays the real-time weather of various cities around the world. The API provided by Geoapi is used.",
+
+  "project_epibook_title": "Epi-Book - EPIBOOK",
+  "project_epibook_description": "A small library that extracts its books from internal JSON, it is one of the first approaches it had with internal calls from a fake API as there are still no external HTTP calls.",
+
+  "footer": "Prototyped with Figma, code written with Visual Studio Code. Built with React + Vite and Tailwind CSS, hosted with Vercel. All the text used Nunito as the font."
+}

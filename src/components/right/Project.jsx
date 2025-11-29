@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import project from "../../json/Projects.json";
 
 function Project() {
+  const { t } = useTranslation();
+
   return (
     <section>
       {project.map((p, id) => (
@@ -10,12 +13,12 @@ function Project() {
               <div className="grid grid-cols-8 gap-2 !items-top hover:bg-slate-800/50 hover:p-2 hover:rounded hover:scale-[1.05] transition-all duration-300 easein-out ">
                 <div className="col-span-8 lg:col-span-2 order-2 lg:order-1">
                   <figure className=" lg:w-full lg:h-[80px] ">
-                    <img src={p.image} alt={p.title} className="h-full w-full" />
+                    <img src={t(p.image)} alt={t(p.title)} className="h-full w-full" />
                   </figure>
                 </div>
                 <div className="col-span-8 lg:col-span-6 order-1 lg:order-2">
                   <div className="flex items-center text-slate-200 font-bold text-lg gap-2 hover:text-emerald-300 duration-200 ese-in">
-                    <h3>{p.title}</h3>
+                    <h3>{t(p.title)}</h3>
                     <a href="https://epicode.com/it/" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +40,7 @@ function Project() {
                     </a>
                   </div>
                   <section className="text-slate-400 text-md lg:text-sm font-medium mt-2">
-                    <p>{p.description}</p>
+                    <p>{t(p.description)}</p>
                   </section>
                 </div>
               </div>

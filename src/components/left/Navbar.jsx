@@ -1,8 +1,11 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const [activeSection, setActiveSection] = useState("");
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
@@ -26,9 +29,9 @@ function Navbar() {
     <nav className="nav hidden lg:block" aria-label="In-page jump links">
       <ul className="w-max">
         {[
-          { id: "about", label: "About" },
-          { id: "experience", label: "Experience" },
-          { id: "projects", label: "Projects" },
+          { id: "about", label: t("nav_about") },
+          { id: "experience", label: t("nav_experiences") },
+          { id: "projects", label: t("nav_projects") },
         ].map((section) => (
           <>
             <li key={section.id}>

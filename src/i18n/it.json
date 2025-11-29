@@ -1,0 +1,46 @@
+{
+  "hero_title": "Alessandro Coretti",
+  "hero_subtitle": "Front-end Developer",
+  "hero_description": "Creo cose belle per il web, utili a tutti voi",
+
+  "nav_about": "Chi sono",
+  "nav_experiences": "Esperienze",
+  "nav_projects": "Progetti",
+
+  "about_p1": "Ciao! Sono uno sviluppatore Front-end appassionato di interfacce accessibili, pulite e ad alte prestazioni. Mi piace lavorare nel punto d'incontro tra design e sviluppo, dove l’estetica incontra la funzionalità per creare esperienze intuitive e ben progettate.",
+  "about_p2": "Dopo aver completato un percorso formativo con ",
+  "about_p2_b": ", mi sono specializzato nello sviluppo di applicazioni moderne utilizzando React per il frontend e Spring Boot per il backend. Affronto ogni progetto con attenzione ai dettagli, cura del codice e focus sull’accessibilità e sulle performance.",
+  "about_p3": "Amo risolvere problemi reali attraverso il codice: dalla creazione di componenti UI personalizzati alla gestione della logica di stato, fino alla connessione con API esterne. Credo nella scrittura di codice pulito, scalabile e orientato all’utente.",
+  "about_p4": "Quando non sono al PC, mi alleno, passo tempo all'aperto con il mio cane Rocky o con la mia compagna. Altrimenti puoi star certo che mi trovi a spasso con la mia gilda tra le Terre proibite cercando di catturare un ",
+
+  "exp_graphicdesigner_title": "Graphic Designer",
+  "exp_graphicdesigner_company": "Andrea Leonardi s.r.l.",
+  "exp_graphicdesigner_period": "Gen 2022 - Giu 2022",
+  "exp_graphicdesigner_description": "Esperienza di 6 mesi in full-remote durante la quale mi sono occupato della realizzazione di grafiche con Canva per video, presentazioni e meeting aziendali, collaborando quotidianamente con il team di copywriting per garantire coerenza visiva e comunicativa.",
+
+  "exp_epicode_title": "Esperienza con Epicode",
+  "exp_epicode_company": "Epicode",
+  "exp_epicode_period": "2024 - 2025",
+  "exp_epicode_description": "Un'esperienza formativa completa di 6 mesi, vissuta passo dopo passo con lo studio e l'apprendimento continuo. In questo percorso ho acquisito competenze fondamentali nello sviluppo di componenti sia front-end che back-end, il tutto completamente on-demand. Il lavoro di squadra, affrontato attraverso progetti concreti, mi ha permesso di sviluppare soft skill come la comunicazione, la collaborazione e la gestione del tempo, fondamentali per lavorare in team in modo efficace.",
+
+  "exp_publicis_title": "Content Editor",
+  "exp_publicis_company": "Publicis Sapient",
+  "exp_publicis_period": "Mag 2025 - Ott 2025",
+  "exp_publicis_description": "Durante la mia esperienza in Publicis Sapient, ho collaborato da remoto alla gestione e all’ottimizzazione dei siti web globali di Maserati, utilizzando Adobe CMS (AEM) per garantire coerenza e qualità dei contenuti su scala internazionale. Inoltre, ho partecipato attivamente al rilascio della collezione estiva di McPura e McPura Cielo, supportando le attività di pubblicazione e aggiornamento dei contenuti digitali.",
+
+  "resume_link": "Vedi il resoconto completo",
+
+  "project_netflixpro_title": "Clone Netflix 2.0 - Netflix",
+  "project_netflixpro_description": "Progetto migliorato del precedente che avevo creato. Multipagina, possibilità di avere una propria lista di preferiti, descrizioni e pagine che si aggiornano dinamicamente con l'API di TMDb. Al momento è in fase di miglioramento, sia per desktop che per mobile.",
+
+  "project_netflixbase_title": "Clone Netflix - Netflix",
+  "project_netflixbase_description": "Un clone della homepage di Netflix realizzato in React, con una pagina di gestione del profilo utente e un’interfaccia ispirata all’originale. I dati dei film e le copertine vengono caricati dinamicamente tramite API esterne.",
+
+  "project_meteoapp_title": "Sito mobile per Meteo - Meteo App",
+  "project_meteoapp_description": "Una semplice app che visualizza il meteo in tempo reale delle varie città in giro per il mondo. Si sfrutta l'API fornita da Geoapi.",
+
+  "project_epibook_title": "Epi-Book - EPIBOOK",
+  "project_epibook_description": "Piccola libreria che ricava i propri libri da un JSON interno, è uno dei primi approcci avuti con chiamate interne di una fake API inquanto ancora non presenti chiamate HTTP esterne.",
+
+  "footer": "Prototipato con Figma, codice scritto con Visual Studio Code. Costruito con React + Vite e Tailwind CSS, hostato con Vercel. Tutto il testo ha usato come font Nunito."
+}

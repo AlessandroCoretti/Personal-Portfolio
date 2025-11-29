@@ -1,7 +1,10 @@
 import Tecnologies from "./Tecnologies";
 import experiences from "../../json/Experiences.json";
+import { useTranslation } from "react-i18next";
 
 function Experience() {
+  const { t } = useTranslation();
+
   return (
     <section id="experience">
       <ol>
@@ -9,13 +12,13 @@ function Experience() {
           <li key={index} className="mb-12">
             <div className="grid grid-cols-8  !items-top hover:bg-slate-800/50 hover:p-2 hover:rounded hover:scale-[1.05] transition-all duration-300 easein-out ">
               <div className="col-span-8 lg:col-span-2 mb-3 lg:mb-0">
-                <header className="uppercase !text-slate-300 text-xs font-bold mt-1">{exp.period}</header>
+                <header className="uppercase !text-slate-300 text-xs font-bold mt-1">{t(exp.period)}</header>
               </div>
               <div className="col-span-8 lg:col-span-6">
                 <div className="flex items-center text-slate-200 font-bold text-lg gap-2 cursor-pointer hover:text-emerald-300 duration-200 ese-in">
-                  <h3>{exp.role}</h3>
-                  <div>{exp.company}</div>
-                  <a href={exp.link} target="_blank" rel="noopener noreferrer">
+                  <h3>{t(exp.role)}</h3>
+                  <div>{t(exp.company)}</div>
+                  <a href={t(exp.link)} target="_blank" rel="noopener noreferrer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -35,7 +38,7 @@ function Experience() {
                     </svg>
                   </a>
                 </div>
-                <section className="text-slate-400 text-md lg:text-sm font-medium mt-2" dangerouslySetInnerHTML={{ __html: exp.description }}></section>
+                <section className="text-slate-400 text-md lg:text-sm font-medium mt-2" dangerouslySetInnerHTML={{ __html: t(exp.description) }}></section>
               </div>
             </div>
           </li>
@@ -50,7 +53,7 @@ function Experience() {
           className="block w-fit"
         >
           <div className="uppercase w-fit my-12 flex text-slate-200 text-sm items-top gap-1 hover:text-emerald-300  hover:scale-[1.05] transition-all duration-200 ease-in-out">
-            <p>Vedi il resoconto completo</p>
+            <p>{t("resume_link")}</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
