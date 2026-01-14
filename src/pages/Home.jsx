@@ -8,6 +8,7 @@ import Experience from "../components/right/Experience";
 import Footer from "../components/right/Footer";
 import Projects from "../components/right/Projects";
 import "../css/Home.css";
+import OpenInBrowserButton from "../components/left/Prova";
 
 function Home() {
   return (
@@ -19,9 +20,7 @@ function Home() {
           <Header />
           <Navbar />
           <Social />
-          <a href="https://www.alessandrocoretti.com" target="" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-            Visita il mio sito
-          </a>
+          <OpenInBrowserButton />
         </div>
       </div>
       <div className="w-[100%] flex flex-col gap-15 lg:gap-30 lg:pb-30">
