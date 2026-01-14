@@ -19,7 +19,7 @@ function Home() {
           <Header />
           <Navbar />
           <Social />
-          <a href="https://blissagency.it/" target="" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+          <a href="https://www.alessandrocoretti.com" target="" rel="noopener noreferrer" className="text-blue-500 hover:underline">
             Visita il mio sito
           </a>
         </div>
