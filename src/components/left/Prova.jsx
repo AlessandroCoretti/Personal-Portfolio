@@ -3,7 +3,7 @@ import React from "react";
 function OpenInBrowserButton() {
   const handleClick = () => {
     // Apri una pagina di redirect intermedia
-    window.location.href = "https://www.alessandrocoretti.com/redirect";
+    window.location.href = "https://www.alessandrocoretti.com";
   };
 
   return (
