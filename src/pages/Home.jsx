@@ -19,6 +19,9 @@ function Home() {
           <Header />
           <Navbar />
           <Social />
+          <a href="https://www.alessandrocoretti.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+            Visita il mio sito
+          </a>
         </div>
       </div>
       <div className="w-[100%] flex flex-col gap-15 lg:gap-30 lg:pb-30">
