@@ -1,12 +1,14 @@
+import { Suspense, lazy } from "react";
 import LanguagesSwitcher from "../components/LanguagesSwitcher";
 import Header from "../components/left/Header";
 import Navbar from "../components/left/Navbar";
 import Social from "../components/left/Social";
 import About from "../components/right/About";
-import Experience from "../components/right/Experience";
 import Footer from "../components/right/Footer";
-import Projects from "../components/right/Projects";
 import "../css/Home.css";
+
+const Experience = lazy(() => import("../components/right/Experience"));
+const Projects = lazy(() => import("../components/right/Projects"));
 
 function Home() {
   return (
@@ -21,8 +23,10 @@ function Home() {
       </div>
       <div className="w-[100%] flex flex-col gap-15 lg:gap-30 lg:pb-30">
         <About />
-        <Experience />
-        <Projects />
+        <Suspense fallback={<div className="text-slate-200">Loading...</div>}>
+          <Experience />
+          <Projects />
+        </Suspense>
         <Footer />
       </div>
     </div>

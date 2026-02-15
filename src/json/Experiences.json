@@ -19,5 +19,12 @@
     "company": "exp_publicis_company",
     "link": "https://www.publicissapient.com/",
     "description": "exp_publicis_description"
+  },
+  {
+    "period": "exp_bliss_period",
+    "role": "exp_bliss_title",
+    "company": "exp_bliss_company",
+    "link": "https://blissagency.it/",
+    "description": "exp_bliss_description"
   }
 ]

@@ -4,4 +4,10 @@ import App from "./App.jsx";
 
 import "./i18n/i18n.js";
 
-createRoot(document.getElementById("root")).render(<App />);
+import { HelmetProvider } from "react-helmet-async";
+
+createRoot(document.getElementById("root")).render(
+    <HelmetProvider>
+        <App />
+    </HelmetProvider>
+);

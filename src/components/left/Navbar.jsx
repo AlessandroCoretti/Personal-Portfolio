@@ -8,22 +8,39 @@ function Navbar() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    const sections = document.querySelectorAll("section");
+    const observerOptions = {
+      rootMargin: "-20% 0px -60% 0px", // Active when element is in the top part of the screen
+      threshold: 0,
+    };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const mostVisible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-
-        if (mostVisible && mostVisible.target.id !== activeSection) {
-          setActiveSection(mostVisible.target.id);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
         }
-      },
-      { threshold: Array.from({ length: 101 }, (_, i) => i / 100) }
-    );
+      });
+    }, observerOptions);
 
-    sections.forEach((section) => observer.observe(section));
-    return () => observer.disconnect();
-  }, [activeSection]);
+    const observeSections = () => {
+      const sections = document.querySelectorAll("section[id]");
+      sections.forEach((section) => observer.observe(section));
+    };
+
+    // Initial observation
+    observeSections();
+
+    // Check for new sections when DOM changes (due to lazy loading)
+    const mutationObserver = new MutationObserver(() => {
+      observeSections();
+    });
+
+    mutationObserver.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      observer.disconnect();
+      mutationObserver.disconnect();
+    };
+  }, []);
 
   return (
     <nav className="nav hidden lg:block" aria-label="In-page jump links">
@@ -37,14 +54,12 @@ function Navbar() {
             <li key={section.id}>
               <a href={`#${section.id}`} className="group flex items-center py-3 ">
                 <span
-                  className={`nav-indicator mr-4 h-px  transition-all motion-reduce:transition-none ${
-                    activeSection === section.id ? "w-16 bg-slate-200" : "w-8 bg-slate-600 group-hover:w-16 group-hover:bg-slate-200"
-                  } `}
+                  className={`nav-indicator mr-4 h-px  transition-all motion-reduce:transition-none ${activeSection === section.id ? "w-16 bg-slate-200" : "w-8 bg-slate-600 group-hover:w-16 group-hover:bg-slate-200"
+                    } `}
                 ></span>
                 <span
-                  className={`nav-text text-sm font-bold uppercase tracking-widest transition-colors ${
-                    activeSection === section.id ? "text-slate-200" : "text-slate-500 group-hover:text-slate-200"
-                  }`}
+                  className={`nav-text text-sm font-bold uppercase tracking-widest transition-colors ${activeSection === section.id ? "text-slate-200" : "text-slate-500 group-hover:text-slate-200"
+                    }`}
                 >
                   {section.label}
                 </span>
