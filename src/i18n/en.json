@@ -42,5 +42,8 @@
   "project_epibook_title": "Epi-Book - EPIBOOK",
   "project_epibook_description": "A small library that extracts its books from internal JSON, it is one of the first approaches it had with internal calls from a fake API as there are still no external HTTP calls.",
 
+  "project_sillabarber_title": "Modern Barber Shop || Silla",
+  "project_sillabarber_description": "A modern web application designed to digitize the customer experience of a barber shop. The platform offers an elegant and responsive user interface for booking appointments and a powerful admin dashboard for managing staff and calendar. It includes: a booking system that allows customers to choose a barber, date, and time based on real availability. A protected dashboard for managing appointments, viewing activity statistics, and configuring barber profiles. A carefully designed UI with smooth animations (GSAP) and full mobile support. Complete internationalization (i18n) in Italian and English.",
+
   "footer": "Prototyped with Figma, code written with Visual Studio Code. Built with React + Vite and Tailwind CSS, hosted with Vercel. All the text used Nunito as the font."
 }

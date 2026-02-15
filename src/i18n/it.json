@@ -42,5 +42,8 @@
   "project_epibook_title": "Epi-Book - EPIBOOK",
   "project_epibook_description": "Piccola libreria che ricava i propri libri da un JSON interno, è uno dei primi approcci avuti con chiamate interne di una fake API inquanto ancora non presenti chiamate HTTP esterne.",
 
+  "project_sillabarber_title": "Barberia Moderna || Silla",
+  "project_sillabarber_description": "Barberia Moderna || Silla è un'applicazione web full-stack moderna progettata per digitalizzare l'esperienza clienti di un barber shop. La piattaforma offre un'interfaccia utente elegante e responsive per la prenotazione degli appuntamenti e un potente pannello di amministrazione per la gestione dello staff e del calendario. Dispone di: sistema di booking che permette ai clienti di scegliere barbiere, data e orario in base alla disponibilità reale. Dashboard protetta per gestire appuntamenti, visualizzare le statistiche dell'attività e configurare i profili dei barbieri. Design curato con animazioni fluide (GSAP) e supporto completo per dispositivi mobili. Internazionalizzazione (i18n) completa in Italiano e Inglese.",
+
   "footer": "Prototipato con Figma, codice scritto con Visual Studio Code. Costruito con React + Vite e Tailwind CSS, hostato con Vercel. Tutto il testo ha usato come font Nunito."
 }

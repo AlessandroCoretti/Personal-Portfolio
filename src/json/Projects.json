@@ -1,13 +1,20 @@
 [
   {
     "id": 1,
+    "title": "project_sillabarber_title",
+    "description": "project_sillabarber_description",
+    "image": "/image/silla-barber.png",
+    "link": "https://silla-barber.vercel.app/"
+  },
+  {
+    "id": 2,
     "title": "project_netflixpro_title",
     "description": "project_netflixpro_description",
     "image": "/image/Netflix-clone-2.0.png",
     "link": "https://netflix-clone-inky-sigma.vercel.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "project_netflixbase_title",
     "description": "project_netflixbase_description",
     "image": "/image/Netflix-img.png",
@@ -15,7 +22,7 @@
   },
 
   {
-    "id": 3,
+    "id": 4,
     "title": "project_meteoapp_title",
     "description": "project_meteoapp_description",
     "image": "/image/Meteo-App.png",
@@ -23,7 +30,7 @@
   },
 
   {
-    "id": 4,
+    "id": 5,
     "title": "project_epibook_title",
     "description": "project_epibook_description",
     "image": "/image/Epibook.png",
