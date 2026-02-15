@@ -21,7 +21,7 @@ function Home() {
           <Social />
         </div>
       </div>
-      <div className="w-[100%] flex flex-col gap-15 lg:gap-30 lg:pb-30">
+      <div className="w-[100%] flex flex-col gap-[60px] lg:gap-[120px] lg:pb-[120px]">
         <About />
         <Suspense fallback={<div className="text-slate-200">Loading...</div>}>
           <Experience />
